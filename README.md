@@ -1,3 +1,13 @@
+uv pip install llama-index llama-index-llms-ollama llama-index-embeddings-ollama mcp neo4j chromadb pydantic-settings docling sentence-transformers torch fastapi uvicorn 
+
+ollama serve
+ollama run llama3.1
+
+docker-compose up -d
+
+uvx --from=docling-mcp docling-mcp-server --transport sse --port 8001
+uv run chunker_mcp.py
+
 
 ## Minimum hardware specs (my local setup)
 

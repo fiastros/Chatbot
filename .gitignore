@@ -6,10 +6,20 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
+# Environments
 .venv
 .env
 
 # database files
 documents/*
 !documents/.gitkeep
+
+# logs
+logs/*
+
+# databases
+databases/*
+
+
+# Miscellaneous
+.DS_Store

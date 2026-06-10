@@ -11,6 +11,7 @@
   - [Phase 5: Context Augmentation](#phase-5-context-augmentation)
   - [Phase 6: Validation, Synthesis \& Output](#phase-6-validation-synthesis--output)
   - [Phase 7: LLMOps, Security \& Observability](#phase-7-llmops-security--observability)
+- [IMPROVEMENTS](#improvements)
 
 
 ##  Architecture Flow Chart
@@ -98,3 +99,8 @@
 * **Shadow Testing:** Routes a percentage of live traffic to new experimental prompts or models in the background. 
     * *Example:* Testing a new prompt update secretly; the user sees the normal system's answer, while the developers compare it to the experimental system's answer to ensure the update works before a full rollout.
 
+
+
+# IMPROVEMENTS
+
+- [ ] the offline parts should be agentic: agents read the contents and decide how or which tools to use for storage
